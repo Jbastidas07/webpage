@@ -1,0 +1,115 @@
+/*TEXT STYLES & TEXT COLORS */
+.text_primary{
+    color: #fda663;
+}
+.text_secundary{
+    color:#a1a1a1;
+}
+.text_third {
+    color:#f7c08a;
+}
+/*SECUNDAY COLOR, if the option '#a1a1a1' doesnt look nice, I could aways use '#676a74'
+
+/*button*/
+.btn {
+    cursor:pointer;
+    display: inline-block;
+    padding:10px 30px;
+    color:white;
+    background-color:#fda663;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-primary, .bg-primary {
+    background:#fda663;
+    color:#fff;
+}
+.btn-secundary, .bg-secundary {
+    background:#888;
+    color:#fff;
+}
+.bg-blue{
+    background:#cdf5f5;
+    color:#222;
+}
+.bg-BLACK{
+    background:#000;
+    color:#fff;
+}
+.btn-dark, .bg-dark {
+    background:#222;
+    color:#ffff;
+}
+
+.btn-light, .bg-light {
+    background:#ffff;
+    color:#222;
+}
+/*FLEX ITEMS */
+
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height:100%;
+}
+
+.flex-items > div{
+    padding:80px;
+
+}
+
+/*FLEX COLUMS... OR ALL THE COLUMS */
+
+.flex-columns .row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+    height: 100%;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-columns h4 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+/**/
+.sporty{
+    align-items: center;
+    
+}
+  
+
+
